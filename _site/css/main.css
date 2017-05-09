@@ -16,18 +16,16 @@ img {
 /*This is the body section*/
 
 body {
-  margin: auto;
-  padding: auto;
   background-color: floralwhite;
 ;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
   color: #243119;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Muli', sans-serif;
   text-align: center;
 }
 h1 {
@@ -57,20 +55,20 @@ h6 {
 p {
   color: darkslategrey;
   text-align: justify;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 a {
   text-decoration: none;
   color: #629460;
+  font-family: 'Muli', sans-serif;
+
 }
 
 i{
   color: #243119;
 }
 
-button {
-
-}
 
 header, footer {
   min-height: 10vh;
@@ -84,6 +82,7 @@ header, footer {
   font-size: 2px;
   color: #C9F2C7;
   width: 0;
+  font-family: 'Muli';
 }
 
 .hiddentext:hover a {
@@ -92,6 +91,7 @@ header, footer {
   color: #243119;
   background-color: #C9F2C7;
   width: 100%;
+  font-family: 'Muli';
 }
 
 .flexcenter {
@@ -145,23 +145,19 @@ header, footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 10% 0%
+  padding: 10% 0%;
 }
 
 .homenews {
   background-image: url('/images/homenews.png');
-
 }
 
 .homereviews {
   background-image: url('/images/homereviews.png');
-
 }
 
 .homeevents {
   background-image: url('/images/homeevents.png');
-
-
 }
 
 .homepeople {
@@ -176,20 +172,43 @@ header, footer {
   background-image: url('/images/homecontact.png');
 }
 
+.insta-title {
+  margin: 5% 0%;
+}
 
+.insta-title i{
+  font-size: 1.6rem;
+  padding-right: 1%;
+}
 
 /*This is the Nearby page */
 
-section.another {
 
-}
-
-.another h2
 
 /*This is the contact page*/
 
-.formfield {
-  padding: 20% 0%;
+.contacttitle {
+  background-image: url('/images/contact.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+}
+
+.contacttitle h2 {
+  color: floralwhite;
+  font-size: 3rem;
+}
+
+.getintouch {
+  background-color: floralwhite;
+}
+
+div.contactform {
+  padding-left: 10%;
+}
+
+label {
   text-align: right;
 }
 
@@ -207,10 +226,22 @@ padding-top: 2%;
 }
 #mc_embed_signup h4 {
   font-size: 1rem;
+  text-align: right;
 }
+
+#mc_embed_signup .indicates-required {
+  text-align: right;
+}
+
 #mc_embed_signup_scroll {
   padding-top: 2%;
 }
+
+.submitbutton {
+  text-align: right;
+}
+
+
 
 .clear {
   padding-top: 2%;
