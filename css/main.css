@@ -1,0 +1,225 @@
+/*CSS RESET*/
+
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+/*This is the body section*/
+
+body {
+  margin: auto;
+  padding: auto;
+  background-color: #629460;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #243119;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4{
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p {
+  color: darkslategrey;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: #629460;
+}
+
+i{
+  color: #243119;
+}
+
+button {
+
+}
+
+header, footer {
+  min-height: 10vh;
+  background-color: #C9F2C7;
+
+}
+
+.hiddentext a{
+  opacity: 0;
+  transition: 1s;
+  font-size: 2px;
+  color: #C9F2C7;
+  width: 0;
+}
+
+.hiddentext:hover a {
+  opacity: 1;
+  font-size: 3rem;
+  color: #243119;
+  background-color: #C9F2C7;
+  width: 100%;
+}
+
+.flexcenter {
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
+}
+
+/*This is the header section*/
+
+.logo {
+  margin-bottom: -5px;
+  padding:0;
+}
+
+.logo img {
+  padding-left: 5%;
+}
+
+.nav {
+  text-align: right;
+  justify-content: flex-end;
+  padding-right: 5%;
+
+}
+
+.nav a {
+  padding: 2% 2%;
+}
+
+
+/*This is the homepage*/
+
+.sitenav div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.sitenav {
+  margin: 10% 0%;
+}
+
+.grid-noGutter-equalHeight.sitenav {
+  margin: 2% 0%;
+}
+
+
+
+.hometitle {
+  background-image: url('/images/344H 2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 0%
+}
+
+.homenews {
+  background-image: url('/images/homenews.png');
+
+}
+
+.homereviews {
+  background-image: url('/images/homereviews.png');
+
+}
+
+.homeevents {
+  background-image: url('/images/homeevents.png');
+
+
+}
+
+.homepeople {
+  background-image: url('/images/homepeople.png');
+}
+
+.homenearby {
+  background-image: url('/images/homenearby.png');
+}
+
+.homecontact {
+  background-image: url('/images/homecontact.png');
+}
+
+.insta-user {
+  margin: 0;
+  padding: 0;
+  background-color: #96BE8C;
+}
+
+.insta-hashtag {
+  margin: 0;
+  padding: 0;
+  background-color: #96BE8C;
+}
+
+/*This is the Nearby page */
+
+section.another {
+
+}
+
+.another h2
+
+/*This is the contact page*/
+
+section.blank {
+
+}
+
+.blank h2 {
+
+}
+
+/*This is a footer section*/
+
+footer {
+padding-top: 2%;
+}
+
+.mc-field-group {
+  padding-top: 2%;
+}
+#mc_embed_signup {
+  font-size: .75rem;
+}
+
+#mc_embed_signup h4 {
+  font-size: 1rem;
+}
+
+footer .fa {
+  font-size: 4rem;
+}
