@@ -4,7 +4,7 @@
   padding: 0%;
   margin: 0;
   box-sizing: border-box;
-
+  border: 1px solid lightgrey;
 
 }
 
@@ -100,6 +100,16 @@ header, footer {
   justify-content: center;
 }
 
+.background, .homebackground {
+  background-color: #C9F2C7;
+
+}
+
+.background h2 {
+  font-size: 3rem;
+  color: #243119;
+}
+
 /*This is the header section*/
 
 .logo {
@@ -148,6 +158,7 @@ header, footer {
   padding: 10% 0%;
 }
 
+
 .homenews {
   background-image: url('/images/homenews.png');
 }
@@ -189,28 +200,47 @@ header, footer {
 
 .contacttitle {
   background-image: url('/images/contact.jpg');
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 15vh;
+  background-position: center;
+  padding: 10% 0%;
 }
 
-.contacttitle h2 {
-  color: floralwhite;
-  font-size: 3rem;
+.barrier {
+  margin-top: 10%;
 }
 
-.getintouch {
-  background-color: floralwhite;
+
+.formcontent {
+  margin-top: 10%;
+}
+
+.formlabel {
+  margin: 5% 0;
+}
+
+.formtextinput {
+  height: 50px;
+  width: 100%;
+}
+
+.message {
+  height: 100px;
+  width: 100%;
 }
 
 div.contactform {
   padding-left: 10%;
+  text-align: left;
 }
+
+
 
 label {
   text-align: right;
 }
+
+
 
 /*This is a footer section*/
 
