@@ -6,7 +6,7 @@ layout: default
 
 <div class="reviewstitle">
   <div class="background">
-    <h2>Recent reviews</h2>
+    <h2>Upcoming events</h2>
   </div>
 
 </div>
@@ -15,10 +15,10 @@ layout: default
 
 </div>
 
-    {% for thing in site.reviews %}
+    {% for thing in site.events %}
     <a href="{{ thing.url }}" class="grid listing-item">
       <div class="col-4 " style="background-image: url('{{ thing.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        Review
+        {{ page.day }} {{ page.month }}
       </div>
 
       <div class="col-8 listing-item">
@@ -27,7 +27,7 @@ layout: default
         </div>
         <div class="reviewbox reviewsnippet">
           <p>
-            {{ thing.description }}
+            {{ page.description }}
           </p>
         </div>
 

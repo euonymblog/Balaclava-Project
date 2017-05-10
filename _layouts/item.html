@@ -17,23 +17,66 @@ layout: default
       <h6>Address: </h6>{{ page.address }}
     </div>
     <div class="itemfield itemmap">
-      {{ page.map }}
-    </div>
-    <div class="itemfield itemdetails">
-      <h6>When it's on: </h6>{{ page.timeanddate }}
-    </div>
-    <div class="itemfield itemhours">
-      <h6>Opening Hours: </h6>{{ page.opening_hours }}
+      <iframe {{ page.map }} ></iframe>
     </div>
     <div class="itemfield itemwebsite">
-      <h6>Website: </h6><a href="{{ page.website }}">{{ page.website }}</a>
+      <a href="{{ page.website }}" target="_blank"><h6>Website</h6></a>
+    </div>
+
+
+    {% if page.type == "event" %}
+    <div class="itemfield itemhours">
+      <h6>When it's on: </h6>{{ page.day }} {{ page.month }}
+    </div>
+
+      {% if page.booking_required == true %}
+        <div class="itemfield booking tooltip">
+            <span class="tooltiptext">Booking required</span><i class="fa fa-pencil-square" aria-hidden="true"></i></i>
+        </div>
+      {% endif %}
+
+      {% if page.paid_entry == true %}
+        <div class="itemfield dollar tooltip">
+            <span class="tooltiptext">Paid event</span><i class="fa fa-usd" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+    {% endif %}
+
+
+
+
+
+    {% if page.type == "reviews" %}
+    <div class="itemfield itemhours">
+      <h6>Opening hours: </h6>{{ page.opening_hours }}
     </div>
     <div class="itemfield itemstars">
-      <h6>My star rating</h6>{{ page.stars }}
+      <h6>My star rating</h6>
+        {% for star in page.stars %}
+          <i class="fa fa-star" aria-hidden="true"></i>
+        {% endfor %}
     </div>
-    <div class="itemfield itemstars">
-      <h6>My star rating</h6>{{ page.stars }}
-    </div>
+      {% if page.breakfast == true %}
+        <div class="itemfield breakfast tooltip">
+          <span class="tooltiptext">Good for breakfast/lunch</span><i class="fa fa-coffee" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+      {% if page.dinner == true %}
+        <div class="itemfield dinner tooltip">
+            <span class="tooltiptext">Good for dinner</span><i class="fa fa-cutlery" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+      {% if page.dinner == true %}
+        <div class="itemfield wifi tooltip">
+            <span class="tooltiptext">Has wifi</span><i class="fa fa-wifi" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+    {% endif %}
+
   </section>
 
 
@@ -45,23 +88,3 @@ layout: default
   </div>
 
 </div>
-
-
-
-
-<!-- POST INFORMATION -->
-
-  <!-- <div class="col-4 category">
-    {{page.category}}
-  </div>
-
-  <div class="col-4 tag">
-    {{page.tag}}
-  </div>
-
-</div> -->
-<!-- SOCIAL SHARE -->
-
-
-
-<!-- FOOTER FROM DEFAULT -->

@@ -120,11 +120,27 @@ header, footer {
 }
 
 .listing-item {
-  height: 30vh;
+  min-height: 30vh;
 }
 
 a.listing-item {
   margin: 5px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    /*width: 120px;*/
+    background-color: rgba(201, 242, 199, 1);
+    color: #243119;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 /*This is the header section*/
 
@@ -284,10 +300,7 @@ label {
   padding: 5% 0;
 }
 
-.itemsidebar {
 
-
-}
 
 .itemsidebar div {
   margin: 15px
