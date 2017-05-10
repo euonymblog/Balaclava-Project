@@ -144,6 +144,12 @@ a.listing-item {
 }
 /*This is the header section*/
 
+header {
+  position: fixed;
+  background-color: floralwhite;
+  width: 100%;
+  top: 0;
+}
 .logo {
   margin-bottom: -5px;
   padding:0;
@@ -164,7 +170,9 @@ a.listing-item {
   padding: 2% 2%;
 }
 
-
+.headerfix {
+  margin-top: 75px;
+}
 /*This is the homepage*/
 
 .sitenav div {
