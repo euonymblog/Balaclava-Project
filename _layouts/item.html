@@ -1,36 +1,57 @@
 ---
 layout: default
-title:
-image:
-description:
-date:
-category:
-tag:
 ---
 <!-- HEADER FROM DEFAULT -->
+<div class="itemheading">
+  <h2> {{page.title}}</h2>
+</div>
 
-<h2> {{page.title}}</h2>
 
-<div class="grid">
+<div class="grid-spaceBetween">
+
 <!-- SIDEBAR -->
-  <div class="col-4 grid">
-  </div>
+  <section class="col-4 itemsidebar">
+    <div class="itemimage" style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover; background-repeat: none;">
+    </div>
+    <div class="itemfield itemaddress">
+      <h6>Address: </h6>{{ page.address }}
+    </div>
+    <div class="itemfield itemmap">
+      {{ page.map }}
+    </div>
+    <div class="itemfield itemdetails">
+      <h6>When it's on: </h6>{{ page.timeanddate }}
+    </div>
+    <div class="itemfield itemhours">
+      <h6>Opening Hours: </h6>{{ page.opening_hours }}
+    </div>
+    <div class="itemfield itemwebsite">
+      <h6>Website: </h6><a href="{{ page.website }}">{{ page.website }}</a>
+    </div>
+    <div class="itemfield itemstars">
+      <h6>My star rating</h6>{{ page.stars }}
+    </div>
+    <div class="itemfield itemstars">
+      <h6>My star rating</h6>{{ page.stars }}
+    </div>
+  </section>
+
+
 
 <!-- MAIN CONTENT -->
 
-  <div class="col-8">
-    <p>{{page.description}}</p>
-
+  <div class="col-6 itemcontent">
+    <p> {{content}} </p>
   </div>
 
-<div class="grid-right">
+</div>
+
+
+
 
 <!-- POST INFORMATION -->
-  <div class="col-4 date">
-    {{page.date}}
-  </div>
 
-  <div class="col-4 category">
+  <!-- <div class="col-4 category">
     {{page.category}}
   </div>
 
@@ -38,17 +59,9 @@ tag:
     {{page.tag}}
   </div>
 
-</div>
+</div> -->
 <!-- SOCIAL SHARE -->
-  <div class="addthis_inline_share_toolbox"></div>
 
 
-  </div>
-
-
-
-</div>
-
-<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590fe239b85a9cef"></script>
 
 <!-- FOOTER FROM DEFAULT -->

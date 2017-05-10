@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<title>News</title>
+
+<div class="newstitle">
+  <div class="background">
+    <h2>News and views</h2>
+  </div>
+</div>
+
+<div class="nearbytext">
+  <h5 class="editable">All the goss, rumours and actual news from Balaclava.</h5>
+</div>
+
+<a href="{{ news_item.url }}">
+<div class="grid-spaceBetween">
+  <div class="col-3" style="background-image: url('{{ news_item.image }}')">
+
+  </div>
+  <div class="col-8">
+    {{ news_item.description }}
+  </div>
+
+</div>
+</a>

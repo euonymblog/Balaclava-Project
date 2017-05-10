@@ -1,0 +1,10 @@
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:path/
+  people:
+    output: true
+    permalink: /people/:path/
+  events:
+    output: true
+    permalink: /events/:path/

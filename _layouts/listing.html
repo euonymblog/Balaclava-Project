@@ -7,22 +7,25 @@ title:
 
 <h2>Upcoming events</h2>
 
-<div class="grid">
-
-  <div class="col-4">
-    <!-- {{eventdate if event, image for everything else}} -->
+<div>
+    {% for post in site.reviews %}
+<a href="{{post.url}}" class="grid">
+  <div class="col-4" style="background-image: url('{{post.image}}')">
 
   </div>
 
-  <div class="col-8 grid">
-    <div class="col-12">
-    <!-- {{Title from item}} -->
-    </div>
-    <div class="col-12">
-    <!-- {{Description from item}} -->
-    </div>
-  </div>
+  <div class="col-8">
 
+    <div>
+    {{post.title}}
+    </div>
+    <div>
+    {{post.description}}
+    </div>
+
+  </div>
+  </a>
+    {% endfor %}
 </div>
 
 <!-- HOW TO ADD MORE EVENTS? -->

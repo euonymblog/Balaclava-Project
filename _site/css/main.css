@@ -4,6 +4,7 @@
   padding: 0%;
   margin: 0;
   box-sizing: border-box;
+  border: 1px solid pink;
 
 }
 
@@ -79,7 +80,7 @@ header, footer {
   opacity: 0;
   transition: 1s;
   font-size: 2px;
-  color: #C9F2C7;
+  background-color: rgba(201, 242, 199, 0.5);
   width: 0;
   font-family: 'Muli';
 }
@@ -88,7 +89,7 @@ header, footer {
   opacity: 1;
   font-size: 3rem;
   color: #243119;
-  background-color: #C9F2C7;
+  background-color: rgba(201, 242, 199, 0.5);
   width: 100%;
   font-family: 'Muli';
 }
@@ -100,7 +101,7 @@ header, footer {
 }
 
 .background, .homebackground {
-  background-color: #C9F2C7;
+  background-color: rgba(201, 242, 199, 0.5);
 
 }
 
@@ -109,6 +110,22 @@ header, footer {
   color: #243119;
 }
 
+.formbutton button {
+  background-color: #243119;
+  font-family: 'Muli', sans-serif;
+  color: floralwhite;
+  text-align: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.listing-item {
+  height: 30vh;
+}
+
+a.listing-item {
+  margin: 5px;
+}
 /*This is the header section*/
 
 .logo {
@@ -260,6 +277,69 @@ label {
   text-align: right;
 }
 
+
+/*This is the styling for all items*/
+
+.itemheading h2 {
+  padding: 5% 0;
+}
+
+.itemsidebar {
+
+
+}
+
+.itemsidebar div {
+  margin: 15px
+}
+
+
+.itemimage {
+  height: 40vh;
+}
+
+.itemcontent p {
+  margin-right: 10%;
+}
+
+
+
+
+/*This is the news listing section*/
+
+
+.newstitle {
+  background-image: url('/images/newstitle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0%;
+}
+
+/*This is the reviews section*/
+
+.listing-item div {
+  background-color: #C9F2C7;
+}
+.reviewstitle {
+  background-image: url('/images/reviews.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0%;
+}
+
+.reviewsnippet {
+  padding: 2%;
+}
+
+.reviewtitle h3 {
+  margin: 5% 0;
+
+}
+.reviewsnippet p {
+  text-align: center;
+}
 
 
 /*This is a footer section*/
