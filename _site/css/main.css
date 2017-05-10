@@ -4,7 +4,6 @@
   padding: 0%;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid lightgrey;
 
 }
 
@@ -194,7 +193,28 @@ header, footer {
 
 /*This is the Nearby page */
 
+.nearbytitle {
+  background-image: url('/images/nearby.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0%;
+}
 
+.nearbytext {
+  padding: 5% 20%;
+}
+
+.nearbylinks {
+  padding: 0 5%;
+}
+
+.nearbylinks div {
+  min-height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /*This is the contact page*/
 
