@@ -500,4 +500,13 @@ footer .fa {
     margin: 0;
   }
 
+  .hiddentext a {
+    opacity: 1;
+    font-size: 3rem;
+    color: #243119;
+    background-color: rgba(201, 242, 199, 0.5);
+    width: 100%;
+    font-family: 'Muli';
+  }
+
 }
