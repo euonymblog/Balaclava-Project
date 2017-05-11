@@ -156,6 +156,7 @@ header {
 .logo {
   margin-bottom: -5px;
   padding:0;
+  margin-left: 5%;
 }
 
 .logo img {
@@ -498,7 +499,5 @@ footer .fa {
   .itemcontent {
     margin: 0;
   }
-
-
 
 }
