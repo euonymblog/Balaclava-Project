@@ -16,7 +16,7 @@ img {
 /*This is the body section*/
 
 body {
-  background-color: floralwhite;
+  background-color: #FBFFE8;
 ;
   text-align: center;
   font-family: 'Playfair Display', sans-serif;
@@ -62,7 +62,10 @@ a {
   text-decoration: none;
   color: #629460;
   font-family: 'Muli', sans-serif;
+}
 
+a:hover {
+  color: #420C14;
 }
 
 i{
@@ -72,7 +75,7 @@ i{
 
 header, footer {
   min-height: 10vh;
-  background-color: #floralwhite;
+  background-color: #FBFFE8;
 
 }
 
@@ -113,7 +116,7 @@ header, footer {
 .formbutton button {
   background-color: #243119;
   font-family: 'Muli', sans-serif;
-  color: floralwhite;
+  color: #FBFFE8;
   text-align: center;
   align-items: center;
   padding: 5%;
@@ -146,7 +149,7 @@ a.listing-item {
 
 header {
   position: fixed;
-  background-color: floralwhite;
+  background-color: #FBFFE8;
   width: 100%;
   top: 0;
 }
@@ -168,6 +171,11 @@ header {
 
 .nav a {
   padding: 2% 2%;
+  font-size: 1.5rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
 }
 
 .headerfix {
@@ -274,6 +282,11 @@ header {
 
 .formcontent {
   margin-top: 10%;
+  margin-bottom: 10%
+}
+
+.formcontent div {
+  margin-bottom: 5%;
 }
 
 .formlabel {
@@ -291,11 +304,9 @@ header {
 }
 
 div.contactform {
-  padding-left: 10%;
+  padding: 0 5%;
   text-align: left;
 }
-
-
 
 label {
   text-align: right;
@@ -323,7 +334,9 @@ label {
   margin-right: 10%;
 }
 
-
+.itemwebsite a:hover {
+  text-decoration: underline;
+}
 
 
 /*This is the news listing section*/
