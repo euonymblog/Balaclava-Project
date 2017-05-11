@@ -395,10 +395,12 @@ padding-top: 2%;
 }
 
 .mc-field-group {
-  padding-top: 2%;
+  padding: 2% 2%
 }
+
 #mc_embed_signup {
   font-size: .75rem;
+  padding: 2% 2%
 }
 #mc_embed_signup h4 {
   font-size: 1rem;
@@ -426,4 +428,20 @@ padding-top: 2%;
 
 footer .fa {
   font-size: 4rem;
+}
+
+/*Responsive styling*/
+
+.mobile-image-height {
+  min-height: 40vh;
+}
+
+@media (max-width:720px) {
+  .itemmap {
+    display:none;
+  }
+
+  .itemcontent {
+    margin: 0;
+  }
 }

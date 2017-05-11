@@ -6,9 +6,9 @@ layout: default
   <h2> {{page.title}}</h2>
 </div>
 
-<div class="grid-spaceBetween">
+<div class="grid">
 
-  <div class="col-4 itemsidebar">
+  <div class="col-4_sm-6_xs-12 itemsidebar">
     {% for image in page.images %}
       <!-- HOW MANY DEPENDS ON LENGTH OF TEXT -->
     <div class="itemimage" style="background-image: url('{{ image }}'); background-position: center; background-size: cover; background-repeat: none;">
@@ -18,7 +18,7 @@ layout: default
 
   </div>
 
-  <div class="col-6 itemcontent">
+  <div class="col-8_sm-6_xs-12 itemcontent">
     <p>
       {{content}}
     </p>

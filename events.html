@@ -17,11 +17,11 @@ layout: default
 
     {% for thing in site.events %}
     <a href="{{ thing.url }}" class="grid listing-item">
-      <div class="col-4 " style="background-image: url('{{ thing.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+      <div class="col-4_sm-6_xs-12 mobile-image-height" style="background-image: url('{{ thing.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
         {{ page.day }} {{ page.month }}
       </div>
 
-      <div class="col-8 listing-item">
+      <div class="col-8_sm-6_xs-12 listing-item">
         <div class="reviewbox reviewtitle">
           <h3>{{ thing.title }}</h3>
         </div>
