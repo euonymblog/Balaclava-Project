@@ -374,8 +374,20 @@ label {
 .reviewsnippet p {
   text-align: center;
 }
+/*This is the underconstruction page*/
 
+.underconstruction {
+  background-image: url('/images/underconstruction.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0;
+  height: 70vh;
+}
 
+.underconstruction h3 {
+  padding: 5%;
+}
 /*This is a footer section*/
 
 footer {

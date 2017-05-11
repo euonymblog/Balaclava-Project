@@ -9,18 +9,28 @@ layout: default
   </div>
 </div>
 
+
+
 <div class="nearbytext">
-  <h5 class="editable">All the goss, rumours and actual news from Balaclava.</h5>
+  <h5>All the goss, rumours and actual news from Balaclava.</h5>
 </div>
 
-<a href="{{ news_item.url }}">
-<div class="grid-spaceBetween">
-  <div class="col-3" style="background-image: url('{{ news_item.image }}')">
+{% for post in site.posts limit:6 %}
 
-  </div>
-  <div class="col-8">
-    {{ news_item.description }}
+<a href="{{ post.url }}" class="grid listing-item">
+  <div class="col-4" style="background-image: url('{{ post.images }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
   </div>
 
-</div>
+  <div class="col-8 listing-item">
+    <div class="reviewbox reviewtitle">
+    <h3>{{post.title}}</h3>
+    </div>
+    <div class="reviewbox reviewsnippet">
+    <p>
+      {{post.description}}
+    </p>
+    </div>
+  </div>
 </a>
+
+  {% endfor %}

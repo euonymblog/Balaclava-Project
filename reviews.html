@@ -2,23 +2,21 @@
 layout: default
 ---
 
-
+<title>Reviews</title>
 
 <div class="reviewstitle">
   <div class="background">
     <h2>Recent reviews</h2>
   </div>
-
 </div>
 
 <div class="barrier">
 
 </div>
 
-    {% for thing in site.reviews %}
+    {% for thing in site.reviews limit:6 %}
     <a href="{{ thing.url }}" class="grid listing-item">
-      <div class="col-4 " style="background-image: url('{{ thing.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        Review
+      <div class="col-4" style="background-image: url('{{ thing.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
       </div>
 
       <div class="col-8 listing-item">
@@ -30,7 +28,7 @@ layout: default
             {{ thing.description }}
           </p>
         </div>
-
       </div>
     </a>
+
     {% endfor %}

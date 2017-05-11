@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="itemheading">
+  <h2> {{page.title}}</h2>
+</div>
+
+<div class="grid-spaceBetween">
+
+  <div class="col-4 itemsidebar">
+    {% for image in page.images %}
+      <!-- HOW MANY DEPENDS ON LENGTH OF TEXT -->
+    <div class="itemimage" style="background-image: url('{{ image }}'); background-position: center; background-size: cover; background-repeat: none;">
+    </div>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="col-6 itemcontent">
+    <p>
+      {{content}}
+    </p>
+  </div>
+
+</div>

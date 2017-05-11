@@ -47,7 +47,7 @@ layout: default
 
 
 
-    {% if page.type == "reviews" %}
+    {% if page.type == "review" %}
     <div class="itemfield itemhours">
       <h6>Opening hours: </h6>{{ page.opening_hours }}
     </div>
@@ -69,7 +69,7 @@ layout: default
         </div>
       {% endif %}
 
-      {% if page.dinner == true %}
+      {% if page.wifi == true %}
         <div class="itemfield wifi tooltip">
             <span class="tooltiptext">Has wifi</span><i class="fa fa-wifi" aria-hidden="true"></i>
         </div>
