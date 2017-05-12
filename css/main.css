@@ -385,6 +385,25 @@ label {
 .reviewsnippet p {
   text-align: center;
 }
+
+/*#growContainer{
+	width:100%;
+	height:100%;
+}
+.grow{
+	height:50%;
+	width: 100%;
+	-webkit-transition:height 500ms;
+	-moz-transition:height 500ms;
+	transition:height 500ms;
+}
+#growContainer:hover .grow{
+	height:40%;
+}
+#growContainer:hover .grow:hover {
+	height:60%;
+}*/
+
 /*This is the underconstruction page*/
 
 .underconstruction {
