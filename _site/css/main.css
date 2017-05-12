@@ -451,8 +451,9 @@ footer .fa {
   z-index:1000000;
   font-weight:bold;
   font-size: 1em;
-  width:100%; background:#f1f1f1;
-  position:absolute;
+  width:100%;
+  background:#C9F2C7;
+  position:fixed
   text-align:center;
 
 }
@@ -483,8 +484,8 @@ footer .fa {
 .menu a{
   text-decoration:none; color:#666;
 }
-.menu a:hover{
-  text-decoration:none; color:#666;
+/*.menu a:hover{
+  text-decoration:none; color:#666;*/
 }
 .cross{
   color:#666;
