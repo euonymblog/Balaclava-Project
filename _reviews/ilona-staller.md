@@ -7,16 +7,18 @@ description: "Nothing quite like it in Balaclava for a special occasion - but I'
 date_published: 13 May 2017
 address: 282 Carlisle Street
 map:
-  - 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.6524052964246!2d144.9910525150722!3d-37.86842284494558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6684543dbb8f1%3A0x5e00f28d919ef392!2sGlass+Merchants!5e0!3m2!1sen!2sau!4v1494383059804'
-opening_hours: 7am-4pm
-website: 'http://www.glassmerchantsbalaclava.com/'
+  - 'https://www.google.com.au/maps/place/282+Carlisle+St,+Balaclava+VIC+3183/@-37.8685098,144.9912456,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad6684542bf3f5d:0x2dd9e7d630061161!8m2!3d-37.8685098!4d144.9934343'
+opening_hours: 12noon-10pm
+website: 'http://ilonastaller.com.au/'
 stars:
   - star
   - star
   - star
-breakfast: true
+  - star
+  - star
+breakfast: false
 dinner: true
-wifi: true
+wifi: false
 ---
 
 
