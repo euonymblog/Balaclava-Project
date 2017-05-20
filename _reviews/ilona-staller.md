@@ -2,7 +2,7 @@
 layout: item
 type: review
 title: Ilona Staller
-image: /images/Screen Shot 2017-05-07 at 09.26.57.png
+image: /images/ilonastaller.jpg
 description: "Nothing quite like it in Balaclava for a special occasion - but I'm biased...!"
 date_published: 13 May 2017
 address: 282 Carlisle Street
