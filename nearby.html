@@ -4,15 +4,19 @@ links:
   - suburb: Ripponlea
     image: 'http://www.abc.net.au/news/image/6616334-3x2-940x627.jpg'
     link: 'http://www.nightlifecostumes.com.au/'
+    text: 20s costume exhibition
   - suburb: Windsor
     image: 'https://media.timeout.com/images/103696699/750/422/image.jpg'
     link: 'https://www.timeout.com/melbourne/restaurants/tommy-ruff-fish-bar-1'
+    text: New fish and chip shop
   - suburb: St Kilda
     image: 'http://www.theage.com.au/content/dam/images/g/v/q/y/d/z/image.related.articleLeadwide.620x349.gvra4i.png/1493082348567.jpg'
     link: 'http://www.theage.com.au/victoria/minister-opposes-st-kilda-sea-baths-plan-already-approved-by-government-20170424-gvra4i.html'
+    text: St Kilda Sea Baths
   - suburb: St Kilda
     image: 'http://stkildamelbourne.com.au/wp-content/uploads/2016/08/17882399_243349366134572_4251853886001774592_n.jpg'
     link: 'http://stkildamelbourne.com.au/vegging-out-in-st-kilda/'
+    text: Veggie food
 ---
 <title>Nearby</title>
 
@@ -29,10 +33,14 @@ links:
 </div>
 
 <div class="grid nearbylinks">
-{% for link in page.links %}
-    <div class="col-4_xs-12 hiddentext flexcenter" style="background-image: url('{{link.image}}')">
-    <a href="{{link.link}}" target="_blank">
-    {{link.suburb}}</a>
+{% for link in page.links limit:9 %}
+    <div class="col-4_xs-12 flexcenter" style="background-image: url('{{link.image}}')">
+      <div class="nearbybackground flexcenter">
+        <a href="{{link.link}}" target="_blank">
+        {{link.suburb}}
+        <p>{{link.text}}</p></a>
+      </div>
+
   </div>
 
   {% endfor %}
