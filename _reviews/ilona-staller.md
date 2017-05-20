@@ -7,7 +7,7 @@ description: "Nothing quite like it in Balaclava for a special occasion - but I'
 date_published: 13 May 2017
 address: 282 Carlisle Street
 map:
-  - 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.648689200013!2d144.99124561532028!3d-37.86850977974245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6684542bf3f5d%3A0x2dd9e7d630061161!2s282+Carlisle+St%2C+Balaclava+VIC+3183!5e0!3m2!1sen!2sau!4v1495278813992'</iframe>
+  - 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.648689200013!2d144.99124561532028!3d-37.86850977974245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6684542bf3f5d%3A0x2dd9e7d630061161!2s282+Carlisle+St%2C+Balaclava+VIC+3183!5e0!3m2!1sen!2sau!4v1495278813992' </iframe>
 opening_hours: 12noon-10pm
 website: 'http://ilonastaller.com.au/'
 stars:
