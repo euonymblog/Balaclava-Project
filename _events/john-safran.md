@@ -5,13 +5,13 @@ title: John Safran
 image: 'https://library.portphillip.vic.gov.au/files/d8e17e89-63d7-444f-a764-a784009f8ed8/John_Safran_for_calendar.jpg'
 description: John Safran Goes Rogue
 address: 150 Carlisle Street
-day: -2
+day: 13
 month: June
 map:
   - 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25189.346125587712!2d144.984516!3d-37.89144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66844aa2a223d%3A0xad4b734727a9e0d6!2s150+Carlisle+St%2C+St+Kilda+VIC+3182%2C+Australia!5e0!3m2!1sen!2sus!4v1497164176845'
-website: 'https://www.eventbrite.com.au/e/beer-cheese-matching-young-henrys-xm4-tickets-35029007705'
+website: 'https://www.eventbrite.com.au/e/john-safran-goes-rogue-tickets-34961621150'
 booking_required: true
-paid_entry: true
+paid_entry: false
 ---
 
 
