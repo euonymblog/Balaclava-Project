@@ -14,7 +14,8 @@ layout: default
 
 </div>
 
-    {% for thing in site.reviews limit:6 %}
+    {% assign sortedReviews = site.reviews | sort: 'title' %}
+    {% for thing in sortedReviews %}
     <a href="{{ thing.url }}" class="grid listing-item">
       <div class="col-4_sm-6_xs-12 mobile-image-height" style="background-image: url('{{ thing.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
       </div>
