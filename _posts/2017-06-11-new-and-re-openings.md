@@ -2,6 +2,7 @@
 layout: post
 title: New and re-openings
 images:
+  - /images/freshfoodcorner.png
   -
 description: It’s been good to see some new places opening up on Carlisle Street – and the return of an old favourite.
 ---
