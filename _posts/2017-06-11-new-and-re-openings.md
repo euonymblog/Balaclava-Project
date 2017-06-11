@@ -2,10 +2,7 @@
 layout: post
 title: New and re-openings
 images:
-  - 'https://balaclavablog.files.wordpress.com/2017/01/15515617_10154620332291352_1703444733_o.jpg?w=300&h=183'
-  - 'https://i2.wp.com/balaclavablog.files.wordpress.com/2017/01/img_2300.jpg?w=319&h=425&crop&ssl=1'
-  - 'https://balaclavablog.files.wordpress.com/2017/01/img_2283.jpg?w=225&h=300'
-  - 'https://i1.wp.com/balaclavablog.files.wordpress.com/2017/01/img_2289.jpg?w=319&h=425&crop&ssl=1'
+  -
 description: It’s been good to see some new places opening up on Carlisle Street – and the return of an old favourite.
 ---
 
