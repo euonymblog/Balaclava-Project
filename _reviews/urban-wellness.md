@@ -15,7 +15,7 @@ stars:
   - star
   - star
   - star
-breakfast: true
+breakfast: false
 dinner: false
 wifi: false
 ---
