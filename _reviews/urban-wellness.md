@@ -8,7 +8,7 @@ date_published: 11 May 2017
 address: 146 Chapel Street
 map:
   - 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.5843171669567!2d144.98805601534352!3d-37.87001567974232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6685b14740481%3A0xbd7da7886527a38!2s146+Chapel+St%2C+St+Kilda+VIC+3182!5e0!3m2!1sen!2sau!4v1497160873629'
-opening_hours: 7am-4pm
+opening_hours:
 website: urbanwellnesscentre.com.au
 stars:
   - star
